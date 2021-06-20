@@ -12,12 +12,12 @@ class EmisorForm(forms.ModelForm):
         model= Emisor
         fields = ['nombre', 'apellido', 'edad', 'email', 'resumen','categoria']
         labels ={
-            'nombre': 'Nombbre', 
-            'apellido': 'Apellido', 
-            'edad': 'Edad', 
-            'email': 'Email',
-            'categoria': 'Categoria',
-            'resumen': 'Resumen',
+            'nombre': '', 
+            'apellido': '', 
+            'edad': '', 
+            'email': '',
+            'categoria': '',
+            'resumen': '',
         }
         widgets={
             'email': forms.TextInput(
